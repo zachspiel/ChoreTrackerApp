@@ -12,6 +12,11 @@
 2. Stakeholders
 
 3. Functional Requirements (features)
+    1.	Must be able to add events to calendar if user is an admin.
+    2.	Must be able to remove or edit events from calendar if user is an admin.
+    3.	Must be able to mark chores as completed if child or admin. 
+    4.	Must be able to view all chores on the calendar, completed or not and can be viewed by either child or admin.
+    5.	Must be able to add or remove members if the user is an admin, and designate groups or families in the app.
 
 4. Nonfunctional Requirements
 
