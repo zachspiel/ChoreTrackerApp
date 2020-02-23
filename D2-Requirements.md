@@ -33,7 +33,11 @@ To develop the minimum viable product(MVP) for this project, we would need to de
 
 
 6. Use Cases
-  6.1 Use-Case Diagram
+  6.1 Use-Case Diagram:
+  
+  ![Use_Case1](https://github.com/zachspiel/ChoreTrackerApp/blob/master/UseCaseDiagram.png) 
+  
+  Link on github: https://github.com/zachspiel/ChoreTrackerApp/blob/master/UseCaseDiagram.png
   6.2 Use-Case Description
 
 7. User Stories
