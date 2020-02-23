@@ -12,7 +12,8 @@
 2. Stakeholders
 
 3. Functional Requirements (features)
-
+   6. One chore is completed, users must be able to view availible rewwards, or any reward they may earn. 
+   
 4. Nonfunctional Requirements
 
 5. MVP
