@@ -44,9 +44,20 @@ To develop the minimum viable product(MVP) for this project, we would need to de
   ![Use_Case1](https://github.com/zachspiel/ChoreTrackerApp/blob/master/UseCaseDiagram.png) 
   
   Link on github: https://github.com/zachspiel/ChoreTrackerApp/blob/master/UseCaseDiagram.png
+  
+  
+  
   6.2 Use-Case Description
+Use case: Creating a group Actor: Household member (admin) 
+Description: The member is preparing a group with standard household members. 
+Preconditions: The memeber has purchased the app. 
+Post-conditon: The member has successfully made the group and sent out invites.
+Main Flow: (1)The user has filled out all their loggin information. (2)The system successfulling allows them to enter their account. (3)The user clicks on creating a new group icon, creating a new group. (4)The system files the information of the new group. (5)The system present the user with the invite link to the group (6)The user invites other people they desire to be in the group. (7)The user waits till the invites are accepted. (8)The system saves the information of the people that accepted the invite. Extensions:
+
 
 7. User Stories
+
+
 
 8. Trello
   Trello URL: https://trello.com/b/YXtiDz3w/main 
