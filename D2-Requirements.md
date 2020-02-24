@@ -149,6 +149,7 @@ The user decides to add to the event calendar
  
  ![Image of Calendar](https://github.com/zachspiel/ChoreTrackerApp/blob/Resource-branch/Image%20Resources/Calendar%20Monthly%20View.png)
 
+
 7. User Stories
 
 8. Trello
