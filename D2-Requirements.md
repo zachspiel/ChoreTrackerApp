@@ -149,6 +149,28 @@ The user decides to add to the event calendar
  
  ![Image of Calendar](https://github.com/zachspiel/ChoreTrackerApp/blob/Resource-branch/Image%20Resources/Calendar%20Monthly%20View.png)
 
+Use case: Creating a group 
+Actor: Household member  (admin)
+Description: The memeber is preparing a group with standard household members.
+Preconditions: The memeber has purchased the app.
+Post-conditon: The member has successfully made the group and sent out invites. 
+
+Main Flow:
+The user has filled out all their loggin information.
+The system successfulling allows them to enter their account.
+The user clicks on creating a new group icon, creating a new group.
+The system files the information of the new group.
+The system present the user with the invite link to the group
+The user invites other people they desire to be in the group. 
+The user waits till the invites are accepted.
+The system saves the information of the people that accepted the invite.
+Alternative Flows:
+2.
+New account: The system prvoides them the page for them to make their new account. 
+7.
+The invites are declined and the adim of the group will be notfied about the rejection. 
+The user can resend the invite or invite other people. 
+
 
 7. User Stories
 
