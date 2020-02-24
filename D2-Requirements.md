@@ -10,6 +10,24 @@
  Consumer segment: Households/Household members with a variety of chores to routinely complete.
  
 2. Stakeholders
+  
+  1. College Students
+    College students are a primary user of the Chore Tracker app as they often live in dormitories with fellow students. The Chore Tracker App will be useful to them as they will be able to divide up tasks evenly between their household members. Additionally, college students often have assignments, projects, and meetings to keep track of as well.
+  
+  2. Parents
+  Parents will also benefit from the Chore Tracker App as they will be able to assign chores and tasks for their children to complete.  The Chore Tracker App will include simple incentives to encourage children to do their assigned chore consistently.  
+  
+  3. Competitors: Google Calendar, Physical Agendas
+  Google Calendar offers basic time-management tools that are like ours. We will need to add a unique design and emphasize convenience in order to beat it.
+  Physical agendas are quite easy to use. We must emphasize the convenience of having a programmable agenda on a user’s smartphone.     Perhaps we can emphasize the eco-friendliness of a digital agenda over using a physical book. 
+  
+  4. Potential Detractors: Professors and Managers
+Professors and other types of managers will likely have their own systems in place already to track assignments and tasks for their students. We must be able to integrate these plans (such as syllabi) to our app efficiently.
+  
+  5. Development team
+The development of the Chore Tracker App will be divided between our six team members. Using the pre-established roles, we will rotate between responsibilities for each phase of implementation.
+
+
 
 3. Functional Requirements (features)
   1.	Must be able to add events to calendar if user is an admin.
