@@ -35,10 +35,11 @@ To develop the minimum viable product(MVP) for this project, we would need to de
 6. Use Cases
   6.1 Use-Case Diagram
   In Repository, under name "UseCaseDigram.png"
+  
   6.2 Use-Case Description:
   
    1. Use case: Creating a group 
-   Actor: Household member  (admin)
+   Actor: Household member (admin)
    Description: The memeber is preparing a group with standard household members.
    Preconditions: The memeber has purchased the app.
    Post-conditon: The member has successfully made the group and sent out invites. 
