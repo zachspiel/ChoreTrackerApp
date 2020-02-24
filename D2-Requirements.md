@@ -185,6 +185,62 @@ Alternative Flows:
 The user can resend the invite or invite other people. 
 
 
+Use case: Complete chores
+
+Actor: Household member
+
+Description: The memeber is done with their chores.
+
+Preconditions: The memeber has login into their account.
+
+Post-conditon: The member has successfully completed their chores. 
+
+Main Flow:
+
+The user has opened up their chore list.
+
+The user has marked their task/ chore as complete.
+
+The system has successfully processed the data.
+
+The system notifies the admin about the task being completed.
+
+Extensions:
+
+2.The user does not complete taks so the system notifies the admin about uncompletion. 
+
+Use case: Assigning an admin 
+
+Actor: Household member (admin)
+
+Description: The admin assigns a standard member to be another admin.
+
+Preconditions: The memeber has login into their account.
+
+Post-conditon: The admin has successfully added the new admin. 
+
+Main Flow:
+
+The admin has goes into the group information settings
+
+They select the member they want to be admin
+
+The system gives that member a confirmation
+
+The member accept the role
+
+The system process that there is another admin in the group 
+
+The system updates the group 
+
+The admin gets a confirmation that an admin has successfully be added to the group
+
+Extensions:
+
+4.The user denies the confirmation and the system notfies the admin. 
+The admin can send the confirmation again. 
+
+
 7. User Stories
 
 8. Trello
