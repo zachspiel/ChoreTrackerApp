@@ -30,3 +30,21 @@ The **Admin** class <ins>inherits</ins> from the **User** class as **Admins** <i
   The Group class is responsible for holding groups of users that share common tasks and goals. The Group class implements the group functionality of the Chore Tracker App, as it will allow households and teams to share tasks. The Group class will be responsible for organizing events and members within the group. 
 <br>
   The Settings class is responsible for containing the settings information for a given user. Each user will have their own unique settings class that contains information such as their app theme, profile name, and profile picture. The methods for this class will consist of getter and setter methods that allow users to access and update their settings info.
+<br>
+  The Event class is responsible for containing all details about any event that the user logs in the app. Almost every other class interacts in some way with the Event class since tracking chores/events in the main purpose of the application. Along with details about a certain event, the Event class allows users to create, edit, delete and assign the Event. Through these methods, the Event class will interact with other classes such as the User class and Calender class.
+<br>
+  The MultipartedEvent class inherits from the Event class. This class is specifically for dealing with events/chores that must be done in steps. Therefore, the class allows users to check if a certain part of a task is done, and keeps track of which parts have been completed or not.
+<br>
+  The RepeatingEvent class also inherits from the Event class. This class is for all events that happen on a regular schedule. This class allows the user to specify repeating dates for an Event so that they do not need to create a new Event object for every instance of the same events.
+<br>
+  The Notification class is responsible for keeping track of which event objects have notifications attached to them. The notification settings can be specified by the user such that every individual notification is tied to one event, but an event can have multiple notifications. Therefore, a user can get a notification about an event multiple times so they do not forget about it.
+<br>
+  The EventPanel class is responsible for the display of an event. An object of the EventPanel class will contain details about the event that it is displaying and will also allow the user to see its priority and deadline.
+<br>
+  The Calendar class is responsible for the calendar view of all the events currently logged in the system. The Calendar class will contain all necessary information about the current date, such as year, month, etc. so that it can display events to the user in the given time range using the getTaskList() method. The Calendar will have multiple views that the user can switch between.\
+<br>
+  The MonthlyView class is one type of display of the calendar. It is responsible for displaying all events in a given month, selected by the user. From the view, the user will be able to view the daily schedule of a certain day, switch between months, click into an event to view its details, and create events. 
+<br>
+  The WeeklyView class is another type of display of the calendar. It is responsible for displaying all events in a given week, selected by the user. The class contains the necessary information to get the correct week, such as the start date of the week. It then displays all events that occur during that week. From the view, the user will be able to view the daily schedule of a certain day, switch between weeks, click into an event to view its details, and create events. 
+<br>
+  The DailyView class is the final type of display of the calendar. It is responsible for displaying all events on a given day, selected by the user. The class contains all the necessary information needed to obtain the correct date of the given day so that tasks on that day can be displayed. The tasks will be displayed in order using the startTime/endTime attributes of the Event class. From the view, the user will be able to switch between days, click into an event to view its details, and create events. 
