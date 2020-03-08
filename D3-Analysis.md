@@ -15,6 +15,7 @@ The **Admin** class <ins>inherits</ins> from the **User** class as **Admins** <i
 
  
 <h3>2. Model</h3>
+
 ![UML Diagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Combined%20(1).png)
 
 
