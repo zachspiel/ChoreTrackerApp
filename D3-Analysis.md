@@ -4,4 +4,4 @@ The problem of mangaging chores affects households the impact of which creates a
 
 
 **2. Model**
-![UML Diagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Combined.png)
+![UML Diagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Combined%20(1).png)
