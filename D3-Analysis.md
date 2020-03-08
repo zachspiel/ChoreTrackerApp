@@ -15,7 +15,7 @@ The **Admin** class <ins>inherits</ins> from the **User** class as **Admins** <i
 
  
 <h3>2. Model</h3>
-
+![UML Diagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Combined%20(1).png)
 
 
 
@@ -28,4 +28,3 @@ The **Admin** class <ins>inherits</ins> from the **User** class as **Admins** <i
   The Group class is responsible for holding groups of users that share common tasks and goals. The Group class implements the group functionality of the Chore Tracker App, as it will allow households and teams to share tasks. The Group class will be responsible for organizing events and members within the group. 
 <br>
   The Settings class is responsible for containing the settings information for a given user. Each user will have their own unique settings class that contains information such as their app theme, profile name, and profile picture. The methods for this class will consist of getter and setter methods that allow users to access and update their settings info.
-
