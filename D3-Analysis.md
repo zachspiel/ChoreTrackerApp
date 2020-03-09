@@ -21,6 +21,8 @@ The **Calendar** class correlates when the <ins>user</ins> wants to see the <ins
 
 
 <h3>3.Class Responsibilites</h3>
+
+
 * The User class was included as it is responsible for handling user data and their account as they use the Chore Tracker App. The User class fulfills the requirement of client-server interaction as each user's information will be stored on a database hosted by AWS. The User Class also provides a foundation for implementing group Admins, as they themselves are users that inherit general user functionality but have extended functionality. Users are able to view their event list and calendar and add new events to them as they please.
 
 * The Admin class is responsible for managing groups of users. The Admin class will create a class Group that they can add users to and post events for the group to complete. 
