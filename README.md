@@ -21,12 +21,12 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags)
 
 ## Authors
-Joe Vargovich
-Zach Spielberger
-Olivia Thoney
-Zach Wilson
-Andrew Munoz 
-Leslie Gurrola 
+- Joe Vargovich
+- Zach Spielberger
+- Olivia Thoney
+- Zach Wilson
+- Andrew Munoz 
+- Leslie Gurrola 
 
 ## License
 
