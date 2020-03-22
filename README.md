@@ -15,11 +15,13 @@ Andriod Studio:
 download from [here](https://developer.android.com/studio)
 
 ### Installing
-First open gitkraken and select the _clone repo_ option and using the url from the ChoreTrackerRepo input that into the box: 
+First open Gitkraken and select the _clone repo_ option and using the url from the ChoreTrackerRepo input that into the box: 
 Once the repo is successfully cloned then there should be a folder with all the files in the repo. The next step is to open Andriod Studio and from there select _File_ located in the upper area of the screen and then _Open_, this is where you select on the _ChoreTrackerApp_ and then _app_, select open and from there the project should be able to open with all of the programs already made. Under the _app_ folder, the _Java_ folder contains all the Java files that correlate to the XML files; under the _res > layout_ folder is where the XML files should be located. 
 
 
 ## Running the tests
+
+Using the built-in emulator in Andriod Studio, testing the program on a virtual screen will help the development of the application itself. 
 
 ## Built With
 
@@ -31,7 +33,7 @@ Please read [CONTRIBUTING.md](https://github.com/zachspiel/ChoreTrackerApp/blob/
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags)
+We use [GitKraken](https://www.gitkraken.com/) and [Andriod Studio](https://developer.android.com/studio)for versioning. For the versions available, see the [tags on this repository](https://github.com/zachspiel/ChoreTrackerApp/tags)
 
 ## Authors
 - Joe Vargovich
