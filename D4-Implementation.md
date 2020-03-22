@@ -28,6 +28,27 @@ Zach W - Group display page
 
 <h3>3. Adopted technologies </h3>
 
+1. **Android Studio**
+
+      Allows for the group to create an app using java code and xml. Simple and familiar for everyone in the group
+
+2. **Github**
+
+      Allows us to use a simple interface to view and host our repository
+
+3. **GitKraken** 
+
+      Allows easy version control of out app through a simple interface. Can view who made what changes and to easily pull and push our local repository
+
+4. **Trello** 
+
+      Allows for easy organization of our to be completed tasks. Keeps the team organized and provides a place to view their  assigned tasks.
+
+5. **Discord**     
+
+      Allows team communication between all members. Ability to create multiple channels to organize questions, ideas and general             discussions.
+
+
 <h3>4. Learning/training </h3>
 
 <h3>5. Deployment </h3>
