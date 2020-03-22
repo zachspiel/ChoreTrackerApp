@@ -12,16 +12,19 @@ Trello: https://trello.com/b/YXtiDz3w/main
 
 <h3>2. Implemented requirements</h3>
 
-Joe - Home screen xml and mainactivity.java file.
+Our initial implementation focuses on implementing the most important three reuirements:
+1. Must be able to add events to calendar if user is an admin.
+2. Must be able to view all chores on the calendar, completed or not and can be viewed by either child or admin.
+3. Must be able to add or remove members if the user is an admin, and designate groups or families in the app.
 
-Leslie - Weekly calendar view
+By implementing these three requirements, we successfully satified all requirements to be included in our MVP. In the Requirements deliverable, we decided that our MVP would include the ability to add events and view the event calendar. To validate this, we would create a UI for the display of the home page and allowing user to complete the add event form. As a team, we assigned memebers different screens to implement as Java and .xml files in Android Studio. 
 
-Zach S - Monthly calendar view with hardcoded events
-
-Andrew - Loggin and form
-
-Zach W - Settings and Groups
-
+Joe - XML and MainActivity.java 
+Olivia - Daily view page for calendar
+Zach S-  Monthly view page for calendar
+Leslie - Weekly view page for calendar
+Andrew -  Login page and add event form
+Zach W - Group display page
 
 <h3>3. Adopted technologies </h3>
 
@@ -30,6 +33,7 @@ Zach W - Settings and Groups
 <h3>5. Deployment </h3>
 
 <h3>6. Licensing </h3>
+We choose to license our Chore Tracker App using the GNU General Public License v3.0 (GNU GPLv3), a strong copyleft license. This licesnse grants software developers the freedom to run, study, share, and modify the software. However, the liecnse specifies that developers who modify/use the code, "must pass on to the recipients the same freedoms that [they] received," meaning all modifcations must be published under the same license. We choose this licecnse to prevent people from using the Chore Tracker software in their own projects and then denying other developers use by making their source code closed source.
 
 <h3>7. Readme File </h3>
 
