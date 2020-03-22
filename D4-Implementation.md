@@ -73,6 +73,30 @@ We choose to license our Chore Tracker App using the GNU General Public License 
 
 <h3>8. Look & feel </h3>
 
+**Home page**
+
+![This is the homepage, where users navigate to various sections of the app.](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/Homepage.PNG)
+
+We designed the home page to look like a corkboard where you would normally post events in an office. It was a nice touch that primed users for a productive day. We wanted the homepage to be simple so that the user may convienently use it in as little time as possible. We have three main buttons on the corkboard itself, which corresond to the three main functions of our app. At the bottom are the settings, sign-in, and exit buttons, which are more auxillary functions currently.
+
+**Add events page**
+
+![This is the add events form, where users can create and add new events to their schedule.](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/addevent.PNG)
+
+We designed the add events page to allow users to easily add events in under 30 seconds. We currently have the date and time selections as free-text, but we will likely seperate this category later, adding in hardcoded values for time selection specifically. A user's group can also be selected here using radio buttons, but for now we simulate it with three placeholder values. The user can press add to add their event to their calendar (or their groups calendar if selected). If the user would like to cancel the form, they would simply select the cancel button to clear the form and return to the homepage.
+
+![This is the calendar view of events, currently arragned in a weekly view.](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/calendar.PNG)
+
+The calendar (shown in a weekly view) will display each of the users events using textviews and information stored about each event in the app's sql database. Each event will gradually turn red as the deadline to complete each one approaches closer. Once an event is marked as complete, it will turn green.
+
+
+![This is the login screen for the app](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/login.PNG)
+
+The login screen currently is a form that allows users to enter their username and password into the appropriate sections and be matched up with their profile in the database for the app. We plan on implementing the registration page in the future, which would simply be another form that the user could access by pressing the register button. It will contain a few additional sections that would allow us to track user information, such as their email, username, and password. 
+
+
 <h3>9. Lessons learned </h3>
 
+
 <h3>10.Demo </h3>
+Link to the demo video: https://youtu.be/qzIpneAMP7I
