@@ -19,12 +19,17 @@ Our initial implementation focuses on implementing the most important three reui
 
 By implementing these three requirements, we successfully satified all requirements to be included in our MVP. In the Requirements deliverable, we decided that our MVP would include the ability to add events and view the event calendar. To validate this, we would create a UI for the display of the home page and allowing user to complete the add event form. As a team, we assigned memebers different screens to implement as Java and .xml files in Android Studio. 
 
-Joe - XML and MainActivity.java 
-Olivia - Daily view page for calendar
-Zach S-  Monthly view page for calendar
-Leslie - Weekly view page for calendar
-Andrew -  Login page and add event form
-Zach W - Group display page
+Joe - Home screen XML and MainActivity.java 
+
+Olivia - Daily view page for calendar (XML and java)
+
+Zach S-  Monthly view page for calendar (XML and java)
+
+Leslie - Weekly view page for calendar(XML and java)
+
+Andrew -  Login page and add event form (XML and java)
+
+Zach W - Group display page (XML and java)
 
 <h3>3. Adopted technologies </h3>
 
