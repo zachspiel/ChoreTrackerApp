@@ -33,7 +33,7 @@ Please read [CONTRIBUTING.md](https://github.com/zachspiel/ChoreTrackerApp/blob/
 
 ## Versioning
 
-We use [GitKraken](https://www.gitkraken.com/) and [Andriod Studio](https://developer.android.com/studio)for versioning. For the versions available, see the [tags on this repository](https://github.com/zachspiel/ChoreTrackerApp/tags)
+We use [GitKraken](https://www.gitkraken.com/) and [Andriod Studio](https://developer.android.com/studio) for versioning. For the versions available, see the [tags on this repository](https://github.com/zachspiel/ChoreTrackerApp/tags)
 
 ## Authors
 - Joe Vargovich
