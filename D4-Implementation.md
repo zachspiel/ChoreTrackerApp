@@ -6,7 +6,7 @@
 
 The problem of managing chores affects households and creates a dirty, disorganized house and tension between household members if left unaddressed. For households with a variety of chores between members, the Chore Tracker App is an organizational app that allows for the efficient distribution and tracking of household chores between household members. Unlike Google Calendar, which just displays events and chores, our app will assign them routinely between household members in an organized fashion. The Chore Tracker App is an organizational app that allows household members to fairly distribute chores and tasks to complete. The value of the Chore Tracker App is the organized approach it brings to chore management and decreases the tensions between household members. The Chore Tracker is different from other apps as it contains fun incentives to stick to the planned schedule created using it.
 
-Github:
+Github: https://github.com/zachspiel/ChoreTrackerApp/tree/Androidapp-Initial
 
 Trello: https://trello.com/b/YXtiDz3w/main
 
