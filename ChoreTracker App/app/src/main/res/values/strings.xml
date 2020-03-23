@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="view_calendar">View Calendar</string>
+    <string name="settings_header">Settings</string>
+    <string name="settings_display_name">Display Name:</string>
+    <string name="settings_theme">Theme:</string>
+
+    <string-array name="settings_theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
 </resources>
