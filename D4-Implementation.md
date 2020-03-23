@@ -102,7 +102,7 @@ The login screen currently is a form that allows users to enter their username a
 
 
 <h3>9. Lessons learned </h3>
-
+This deliverable was a much needed part of developing this project. First off it forced us to use our tools and learn how to use Git which was frustrating but now everyone has a better understanding of how we are going to work together. We learned that this is very time consuming and giving ourselves more time throughout the week is beneficial for future success.
 
 <h3>10.Demo </h3>
 Link to the demo video: https://youtu.be/qzIpneAMP7I
