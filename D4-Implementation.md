@@ -55,6 +55,7 @@ Zach W - Group display page (XML and java)
 
 
 <h3>4. Learning/training </h3>
+Andrew was already experienced with Android Studio and GitKraken so he was our main source for help and information when doing our assigned panels of the app. We also used online references to help develop aspects of our pages.
 
 <h3>5. Deployment </h3>
 [AWS Amplify Link]
