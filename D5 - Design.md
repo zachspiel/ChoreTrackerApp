@@ -19,6 +19,11 @@ When a user first opens the Chore Tracker App, they are prompted to sign in and 
 
  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/behavioral-stag-uml.png)
  
+ - Event: 
+ - EventPanel:
+ - RepeatingEvent:
+ - MultipartedEvent: 
+ 
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
 
 <h3>6. Design Principles </h3>
