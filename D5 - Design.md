@@ -16,6 +16,7 @@ This application uses a three layered architecture consisting of the presentatio
 <h3>3. Class diagram </h3>
 
 <h3>4. Sequence Diagram </h3>
+
 **Use Case Description**
 
 Use case: view a weekly schedule of chores
