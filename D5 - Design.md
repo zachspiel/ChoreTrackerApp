@@ -13,7 +13,13 @@ When a user first opens the Chore Tracker App, they are prompted to sign in and 
 This application uses a three layered architecture consisting of the presentation layer, the business layer, and the data access layer. The presentation layer consists of the user interface and the options presented to the user. The business layer contains all of the logic needed to add events, add user's to a group and modify the app settings to the user's preferences. The data access layer consists of the classes needed to access the AWS database and modify the tables within it.
 
 ![System Architecture](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/HighLevelArchitecture.jpg)
+
+GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/HighLevelArchitecture.jpg
+
 <h3>3. Class diagram </h3>
+![UMLDiagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Updated.png)
+
+GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Updated.png 
 
 <h3>4. Sequence Diagram </h3>
 
@@ -38,6 +44,8 @@ Alternative flow:
 **Sequence Diagram**
 
 ![SequenceDiagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/View%20weekly%20schedule%20sequence%20diagram.png)
+
+GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/View%20weekly%20schedule%20sequence%20diagram.png
 
 <h3>5. Design Patterns </h3>
 
