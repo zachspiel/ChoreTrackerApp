@@ -16,6 +16,27 @@ This application uses a three layered architecture consisting of the presentatio
 <h3>3. Class diagram </h3>
 
 <h3>4. Sequence Diagram </h3>
+**Use Case Description**
+
+Use case: view a weekly schedule of chores
+Actor: household member (user)
+Description: A user of the app who is registered as a household member can select the weekly view option from the calendar in order to view the current week's schedule of chores.
+Pre-conditions: The user is logged into the app and it currently at the homepage
+Post-condtions: The user is now on the weekly view page of the app and can see the schedule of chores for the current week
+
+Main flow:
+1. The user selects Calender from the homepage menu
+2. The user selects the Weekly View option from the main Calender page
+3. The system finds all events with a deadline during the current week
+4. The Weekly View is displayed with all chores with a deadline in the current week
+
+Alternative flow:
+\*a. The user navigates away from the calender page at any time
+  b. The user can view the weekly schedule by following the main flow from Step 1
+  
+**Sequence Diagram**
+
+![SequenceDiagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/View%20weekly%20schedule%20sequence%20diagram.png)
 
 <h3>5. Design Patterns </h3>
 
