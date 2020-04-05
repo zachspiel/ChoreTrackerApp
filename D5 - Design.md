@@ -51,3 +51,16 @@ Alternative flow:
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
 
 <h3>6. Design Principles </h3>
+
+========================================================================================================================================
+
+<h3>Deliverable Information</h3>
+GitHub Link: https://github.com/zachspiel/ChoreTrackerApp
+Team Partitipation:
+  Joe Vargovich (20%) - completed Part 1 and contributed the Design Pattern to Part 5
+  Leslie Gurrola (15%) - worked on EventPanel and all Calender classes for the UML Diagram for Part 3 and contributed the Strategy Pattern to Part 5
+  Olivia Thoney (15%) - completed Part 4 and all deliverable information requirements as Quality Assurance for this week
+  Zach Wilson (15%) - worked on Event classes for the UML Diagram for Part 3 and contributed the --Design Pattern-- to Part 5
+  Zach Spielberger (20%) - completed Part 2 and worked on the User, Settings, Group and Admin classes for the UML Diagram
+  Andrew Munoz (15%) - completed Part 6
+  
