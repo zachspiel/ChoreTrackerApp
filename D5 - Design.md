@@ -64,11 +64,11 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
 <h3>Deliverable Information</h3>
 GitHub Link: https://github.com/zachspiel/ChoreTrackerApp
 
-**Team Partitipation**
-Joe Vargovich (20%) - completed Part 1 and contributed the Design Pattern to Part 5
-Leslie Gurrola (15%) - worked on EventPanel and all Calender classes for the UML Diagram for Part 3 and contributed the Strategy Pattern to Part 5
-Olivia Thoney (15%) - completed Part 4 and all deliverable information requirements as Quality Assurance for this week
-Zach Wilson (15%) - worked on Event classes for the UML Diagram for Part 3 and contributed the --Design Pattern-- to Part 5
-Zach Spielberger (20%) - completed Part 2 and worked on the User, Settings, Group and Admin classes for the UML Diagram
+**Team Partitipation**<br/>
+Joe Vargovich (20%) - completed Part 1 and contributed the Design Pattern to Part 5\
+Leslie Gurrola (15%) - worked on EventPanel and all Calender classes for the UML Diagram for Part 3 and contributed the Strategy Pattern to Part 5\
+Olivia Thoney (15%) - completed Part 4 and all deliverable information requirements as Quality Assurance for this week\
+Zach Wilson (15%) - worked on Event classes for the UML Diagram for Part 3 and contributed the --Design Pattern-- to Part 5\
+Zach Spielberger (20%) - completed Part 2 and worked on the User, Settings, Group and Admin classes for the UML Diagram\
 Andrew Munoz (15%) - completed Part 6
   
