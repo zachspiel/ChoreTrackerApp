@@ -49,6 +49,7 @@ Alternative flow:
 GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/View%20weekly%20schedule%20sequence%20diagram.png
 
 <h3>5. Design Patterns </h3>
+<Strong>Design Pattern 1: (Behavioral) Strategy</Strong>
 
  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/behavioral-stag-uml.png)
  
@@ -58,6 +59,12 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
  - MultipartedEvent: 
  
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
+ 
+ <Strong>Design Pattern 2: () Blank</Strong>
+ 
+ <Strong>Design Pattern 3: (Partitioning) Composite</Strong> - This Composite Patten uses Member as an interface which is implement by standard members, which are a component of the composite, and admin members, which are a component and a composite of other members as they can control members of a group but also act as one.
+ 
+  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/D6_Part5_Pattern3_Composite.png)
 
 <h3>6. Design Principles </h3>
 
