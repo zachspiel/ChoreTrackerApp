@@ -52,14 +52,23 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
 
  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/behavioral-stag-uml.png)
  
- - Event: 
- - EventPanel:
- - RepeatingEvent:
- - MultipartedEvent: 
+ - Event: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/Event.java
+ - EventPanel: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/EventPanel.java
+ - RepeatingEvent: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/RepeatingEvent.java
+ - MultipartedEvent: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/MultipartedEvent.java
  
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
-
+ 
+ 
+  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/TemplateMethodD5.png)
+ 
+ - User: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/User.java
+ - Admin: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/Admin.java
+ 
+ The template design pattern correlates with the classes Admin and User because we can use the User class as a template to extend with Admin-specific activity through inheritance. 
+ 
 <h3>6. Design Principles </h3>
+    Our design represents good design principles by having good cohesion, no repetition and simple design. An example of good cohesion is the calendar view class. The monthly, weekly and daily view complement each other so well it creates a cohesive product. For simplicity our app focuses on the basics and doesn’t try to do more than it needs to. Our basic functionality boils down to creating a group, sharing events with the group and keeping track of who needs to do which event. We want the users to be able to get the most out of the app without over complicating things. Finally we use no repetition in the app. We want screens to be as unique as possible to avoid confusing the users and keep the app simple. Each class in the design has its own unique action and while some of them are similar they present their own unique way to present data to our user base
 
 <h3>Deliverable Information</h3>
 GitHub Link: https://github.com/zachspiel/ChoreTrackerApp
