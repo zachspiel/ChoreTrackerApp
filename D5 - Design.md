@@ -49,6 +49,7 @@ Alternative flow:
 GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/View%20weekly%20schedule%20sequence%20diagram.png
 
 <h3>5. Design Patterns </h3>
+<Strong>Design Pattern 1: (Behavioral) Strategy</Strong>
 
  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/behavioral-stag-uml.png)
  
@@ -59,6 +60,7 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
  
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
  
+  <Strong>Design Pattern 2: (Behavioral) Template</Strong>
  
   ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/TemplateMethodD5.png)
  
@@ -67,6 +69,12 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
  
  The template design pattern correlates with the classes Admin and User because we can use the User class as a template to extend with Admin-specific activity through inheritance. 
  
+ <Strong>Design Pattern 3: (Partitioning) Composite</Strong>
+ 
+  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/D5_Part5_Pattern3_Composite.png)
+  
+  This Composite Patten uses Member as an interface which is implement by standard members, which are a component of the composite, and admin members, which are a component and a composite of other members as they can control members of a group but also act as one.
+
 <h3>6. Design Principles </h3>
     Our design represents good design principles by having good cohesion, no repetition and simple design. An example of good cohesion is the calendar view class. The monthly, weekly and daily view complement each other so well it creates a cohesive product. For simplicity our app focuses on the basics and doesn’t try to do more than it needs to. Our basic functionality boils down to creating a group, sharing events with the group and keeping track of who needs to do which event. We want the users to be able to get the most out of the app without over complicating things. Finally we use no repetition in the app. We want screens to be as unique as possible to avoid confusing the users and keep the app simple. Each class in the design has its own unique action and while some of them are similar they present their own unique way to present data to our user base
 
@@ -80,4 +88,3 @@ Olivia Thoney (15%) - completed Part 4 and all deliverable information requireme
 Zach Wilson (15%) - worked on Event classes for the UML Diagram for Part 3 and contributed the --Design Pattern-- to Part 5\
 Zach Spielberger (20%) - completed Part 2 and worked on the User, Settings, Group and Admin classes for the UML Diagram\
 Andrew Munoz (15%) - completed Part 6
-  
