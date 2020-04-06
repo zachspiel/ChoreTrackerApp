@@ -73,6 +73,12 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
  
   ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/D5_Part5_Pattern3_Composite.png)
   
+  - Admin: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5compositemethod/Admin.java
+  - GroupMembers: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5compositemethod/GroupMembers.java
+  - Member: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5compositemethod/Member.java
+  - StandardMember: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5compositemethod/StandardMembers.java
+  - Event: https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5compositemethod/Event.java
+  
   This Composite Patten uses Member as an interface which is implement by standard members, which are a component of the composite, and admin members, which are a component and a composite of other members as they can control members of a group but also act as one.
 
 <h3>6. Design Principles </h3>
