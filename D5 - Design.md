@@ -74,7 +74,7 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
   ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/D5_Part5_Pattern3_Composite.png)
   
   This Composite Patten uses Member as an interface which is implement by standard members, which are a component of the composite, and admin members, which are a component and a composite of other members as they can control members of a group but also act as one.
- 
+
 <h3>6. Design Principles </h3>
     Our design represents good design principles by having good cohesion, no repetition and simple design. An example of good cohesion is the calendar view class. The monthly, weekly and daily view complement each other so well it creates a cohesive product. For simplicity our app focuses on the basics and doesn’t try to do more than it needs to. Our basic functionality boils down to creating a group, sharing events with the group and keeping track of who needs to do which event. We want the users to be able to get the most out of the app without over complicating things. Finally we use no repetition in the app. We want screens to be as unique as possible to avoid confusing the users and keep the app simple. Each class in the design has its own unique action and while some of them are similar they present their own unique way to present data to our user base
 
