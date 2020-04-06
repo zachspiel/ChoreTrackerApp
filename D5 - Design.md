@@ -65,8 +65,6 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
  <Strong>Design Pattern 3: (Partitioning) Composite</Strong> - This Composite Patten uses Member as an interface which is implement by standard members, which are a component of the composite, and admin members, which are a component and a composite of other members as they can control members of a group but also act as one.
  
   ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/D6_Part5_Pattern3_Composite.png)
-  
-  
 
 <h3>6. Design Principles </h3>
 
