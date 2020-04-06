@@ -58,10 +58,11 @@ Zach W - Group display page (XML and java)
 Andrew was already experienced with Android Studio and GitKraken so he was our main source for help and information when doing our assigned panels of the app. We also used online references to help develop aspects of our pages.
 
 <h3>5. Deployment </h3>
-[AWS Amplify Link]
-(https://androidapp-initial.d31yomglsbfse1.amplifyapp.com/)
-![AWS console screenshot]
-(https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/awsConsole.png)
+AWS link:
+[AWS Amplify Link](https://androidapp-initial.d31yomglsbfse1.amplifyapp.com/)
+
+AWS Amplify console:
+![AWS console screenshot](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/awsConsole.png)
 
 <h3>6. Licensing </h3>
 We choose to license our Chore Tracker App using the GNU General Public License v3.0 (GNU GPLv3), a strong copyleft license. This licesnse grants software developers the freedom to run, study, share, and modify the software. However, the liecnse specifies that developers who modify/use the code, "must pass on to the recipients the same freedoms that [they] received," meaning all modifcations must be published under the same license. We choose this licecnse to prevent people from using the Chore Tracker software in their own projects and then denying other developers use by making their source code closed source.
