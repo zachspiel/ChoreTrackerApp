@@ -52,10 +52,10 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
 
  ![UMLpattern](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/behavioral-stag-uml.png)
  
- - Event: 
- - EventPanel:
- - RepeatingEvent:
- - MultipartedEvent: 
+ - Event: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/Event.java
+ - EventPanel: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/EventPanel.java
+ - RepeatingEvent: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/RepeatingEvent.java
+ - MultipartedEvent: https://github.com/zachspiel/ChoreTrackerApp/blob/JoeVargovich_D5Code/javasrc/D5strategyMethod/MultipartedEvent.java
  
  The strategy design pattern correlates with the classes; Event, EventPanel, RepeatingEvent, and MultipartedEvent, because we can change the Event class to have an effect to the extending classes, making the algorithm interchangeable. 
  
