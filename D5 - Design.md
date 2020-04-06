@@ -18,9 +18,9 @@ GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Re
 
 <h3>3. Class diagram </h3>
 
-![UMLDiagram](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Updated.png)
+![UMLDiagram]https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Final_D5.png)
 
-GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Updated.png 
+GitHub Link: https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/UML_Final_D5.png
 
 <h3>4. Sequence Diagram </h3>
 
