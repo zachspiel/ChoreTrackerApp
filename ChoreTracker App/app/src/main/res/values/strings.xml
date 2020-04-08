@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Chore Tracker App</string>
     <string name="view_calendar">View Calendar</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here.</string>
+    <string name="register">Register</string>
+    <string name="chore_tracker_app">Chore Tracker App</string>
+    <string name="username_or_email">username or email</string>
 </resources>
