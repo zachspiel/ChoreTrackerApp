@@ -4,20 +4,20 @@
 **1. Positioning**
   
   **1.1 Problem Statement**
-  "The problem of mangaging chores affects households the impact of which creates a dirty, disorganized house and tension between household members if left unaddressed."
+  "The problem of managing chores affects households the impact of which creates a dirty, disorganized house and tension between household members if left unaddressed."
  
   **1.2 Product Position Statement**
   "For households with a variety of chores between members, the Chore Tracker App is a organizational app that allows for the efficient distribution and tracking of household chores between household members, unlike Google Calendar, which just displays events and chores, our app will assign them routinely between household members in an organized fashion.
   
   **1.3 Value Proposition**
-  The Chore Tracker App is a organizational app that allows household members to fairly distribute chores and tasks to complete. The value of this organized approach to chore managment is a clean house and a low amount of tension between household members. The Chore Tracker is different from other apps, such as Google Calendar, as it contains fun incentives to stick to the planned schedule created using it.
+  The Chore Tracker App is a organizational app that allows household members to fairly distribute chores and tasks to complete. The value of this organized approach to chore management is a clean house and a low amount of tension between household members. The Chore Tracker is different from other apps, such as Google Calendar, as it contains fun incentives to stick to the planned schedule created using it.
   
  Consumer segment: Households/Household members with a variety of chores to routinely complete.
  
 **2. Stakeholders**
   
   1. College Students
-    College students are a primary user of the Chore Tracker app as they often live in dormitories with fellow students. The Chore Tracker App will be useful to them as they will be able to divide up tasks evenly between their household members. Additionally, college students often have assignments, projects, and meetings to keep track of as well.
+    College students are a primary user of the Chore Tracker app as they often live in dormitories with fellow students. The Chore Tracker App will be useful to them as they will be able to divide up tasks evenly between their household members. 
   
   2. Parents
   Parents will also benefit from the Chore Tracker App as they will be able to assign chores and tasks for their children to complete.  The Chore Tracker App will include simple incentives to encourage children to do their assigned chore consistently.  
@@ -40,15 +40,15 @@ The development of the Chore Tracker App will be divided between our six team me
   3.	Must be able to mark chores as completed if child or admin. 
   4.	Must be able to view all chores on the calendar, completed or not and can be viewed by either child or admin.
   5.	Must be able to add or remove members if the user is an admin, and designate groups or families in the app.
-  6. One chore is completed, users must be able to view availible rewwards, or any reward they may earn. 
+  6. One chore is completed, users must be able to view available rewards, or any reward they may earn. 
   
 **4. Nonfunctional Requirements**
    1. Flexibility: App will be compatible on Android devices regardless of size.
    2. Reliability: App will always be able to show users calendar with events.
    3. Maintainability: App will be maintained through its lifetime to ensure user satisfaction.
    4. Security: User information will be stored in secure database to prevent from data leaks.
-   5. Effeciency: App load time will be minimized in order to keep users satisfied.
-   6. Satisfation: App will be convienient to use and encourage users to compelete chores.
+   5. Efficiency: App load time will be minimized in order to keep users satisfied.
+   6. Satisfaction: App will be convenient to use and encourage users to complete chores.
    7. Performance: Data will be loaded quickly and presented to users in easy to use manner.
    
 **5. MVP**
@@ -62,7 +62,7 @@ To develop the minimum viable product(MVP) for this project, we would need to de
  
 **6.2 Use-Case Descriptions**
   
-Use Case: Edit Group and Account Information
+**Use Case: Edit Group and Account Information**
 
 Actor: Household Admins 
 
@@ -98,7 +98,7 @@ The user exits the screen after viewing the information with no changes made
  
  ![Image of AccountInformation](https://github.com/zachspiel/ChoreTrackerApp/blob/Resource-branch/Image%20Resources/Account%20Information(Edit%20state).png)
   
-Use Case: Add Event
+**Use Case: Add Event**
 
 Actor: Household Admins 
 
@@ -138,7 +138,7 @@ The user exits the screen after viewing the information with no changes made
 
   ![Image of ModifyEvent](https://github.com/zachspiel/ChoreTrackerApp/blob/Resource-branch/Image%20Resources/Add%20_ModifyEvent.png)
   
-Use Case: Calendar Monthly View
+**Use Case: Calendar Monthly View**
 
 Actor: Household Admins and subusers
 
@@ -174,21 +174,21 @@ The user decides to add to the event calendar
  
  ![Image of Calendar](https://github.com/zachspiel/ChoreTrackerApp/blob/Resource-branch/Image%20Resources/Calendar%20Monthly%20View.png)
 
-Use case: Creating a group 
+**Use case: Creating a group**
 
 Actor: Household member  (admin)
 
-Description: The memeber is preparing a group with standard household members.
+Description: The member is preparing a group with standard household members.
 
-Preconditions: The memeber has purchased the app.
+Preconditions: The member has purchased the app.
 
-Post-conditon: The member has successfully made the group and sent out invites. 
+Post-condition: The member has successfully made the group and sent out invites. 
 
 Main Flow:
 
-The user has filled out all their loggin information.
+The user has filled out all their login information.
 
-The system successfulling allows them to enter their account.
+The system successfully allows them to enter their account.
 
 The user clicks on creating a new group icon, creating a new group.
 
@@ -204,21 +204,21 @@ The system saves the information of the people that accepted the invite.
 
 Alternative Flows:
 
-2.New account: The system prvoides them the page for them to make their new account. 
+2.New account: The system provides them the page for them to make their new account. 
 
-7.The invites are declined and the adim of the group will be notfied about the rejection. 
+7.The invites are declined and the admin of the group will be notified about the rejection. 
 The user can resend the invite or invite other people. 
 
 
-Use case: Complete chores
+**Use case: Complete chores**
 
 Actor: Household member
 
-Description: The memeber is done with their chores.
+Description: The member is done with their chores.
 
-Preconditions: The memeber has login into their account.
+Preconditions: The member has login into their account.
 
-Post-conditon: The member has successfully completed their chores. 
+Post-condition: The member has successfully completed their chores. 
 
 Main Flow:
 
@@ -232,17 +232,17 @@ The system notifies the admin about the task being completed.
 
 Extensions:
 
-2.The user does not complete taks so the system notifies the admin about uncompletion. 
+2.The user does not complete tasks so the system notifies the admin about uncompletion. 
 
-Use case: Assigning an admin 
+**Use case: Assigning an admin**
 
 Actor: Household member (admin)
 
 Description: The admin assigns a standard member to be another admin.
 
-Preconditions: The memeber has login into their account.
+Preconditions: The member has login into their account.
 
-Post-conditon: The admin has successfully added the new admin. 
+Post-condition: The admin has successfully added the new admin. 
 
 Main Flow:
 
@@ -262,7 +262,7 @@ The admin gets a confirmation that an admin has successfully be added to the gro
 
 Extensions:
 
-4.The user denies the confirmation and the system notfies the admin. 
+4.The user denies the confirmation and the system notifies the admin. 
 The admin can send the confirmation again. 
 
 
@@ -274,26 +274,25 @@ The admin can send the confirmation again.
  
  3. As a parent with children, I want to be able to assign chores to my children that they will be reminded of using their smartphone. Time est: 2hrs, Priority: High
  
- 4.As a parent with children, I want to motivate my kids to do chores through simple rewards. Time estimate: 2hrs to implement incentives, Priority: Medium
+ 4. As a parent with children, I want to motivate my kids to do chores through simple rewards. Time estimate: 2hrs to implement incentives, Priority: Medium
  
- 5.As a person who lives with roommates I would like to have an app that helps us distribute the chores around the house in a quick and easy manner Time estimate: 5 hours, Priority: Medium
+ 5. As a person who lives with roommates I would like to have an app that helps us distribute the chores around the house in a quick and easy manner Time estimate: 5 hours, Priority: Medium
  
- 6.As a parent, I would like an app that notifies me when my child has done their chores and I can assign them chores as well with no hassle. Time estimate: 1 hour, Priority: Medium
+ 6. As a parent, I would like an app that notifies me when my child has done their chores and I can assign them chores as well with no hassle. Time estimate: 1 hour, Priority: Medium
  
- 7.As a college student with roommates, I would like an app that allows me to keep track of who does the most chores around the house. Time: 1 hr, Priority: Medium/Low
+ 7. As a college student with roommates, I would like an app that allows me to keep track of who does the most chores around the house. Time: 1 hr, Priority: Medium/Low
  
- 8.As a person with roommates, I want an app that allows me to send my roommate a reminder to do the dishes on her night of the week. Time: 2 hrs, Priority: Medium
+ 8. As a person with roommates, I want an app that allows me to send my roommate a reminder to do the dishes on her night of the week. Time: 2 hrs, Priority: Medium
  
- 9.As a nanny, I want an app that I can track the progress of chores on so that I can show the parents who did what each day. Time: 2 hrs, Priority: Medium
+ 9. As a nanny, I want an app that I can track the progress of chores on so that I can show the parents who did what each day. Time: 2 hrs, Priority: Medium
  
- 10.As a person who has a roommate, I want an app that lets me share a calendar with my roommates so we can all see when chores need to be done. Time: 1 hr, Priority: Medium/Low
+ 10. As a person who has a roommate, I want an app that lets me share a calendar with my roommates so we can all see when chores need to be done. Time: 1 hr, Priority: Medium/Low
  
- 11.As a college student, I want an app that allows me to schedule chores on a regular basis so I keep a tidy house. Time: 2 hrs,
- Priority: High
+ 11. As a college student, I want an app that allows me to schedule chores on a regular basis so I keep a tidy house. Time: 2 hrs, Priority: High
  
- 12.As a college student, I want an app with a list of chores to choose from to schedule because sometimes I'm unsure what chores need to be done. Time: 1 hour, Priority: Medium
+ 12. As a college student, I want an app with a list of chores to choose from to schedule because sometimes I'm unsure what chores need to be done. Time: 1 hour, Priority: Medium
  
- 13. As a college student living with 3 roomates, I want the ability to send reminders to do chores around the apartment so it will remain clean. Time: 1 hour, Priority: High
+ 13. As a college student living with 3 roommates, I want the ability to send reminders to do chores around the apartment so it will remain clean. Time: 1 hour, Priority: High
  
  14. As a college student living with my family, I want an app that can track who has completed chores weekly so I can make sure everyone is contributing equally. Time: 1hr, Priority: Medium
   
