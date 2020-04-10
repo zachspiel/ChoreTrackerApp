@@ -32,6 +32,7 @@
         <activity android:name=".Login" />
         <activity android:name=".CalendarView" />
         <activity android:name=".Register" />
+        <activity android:name=".VerificationActivity" />
         <activity android:name=".Daily" />
         <activity android:name=".Weekly" />
     </application>

@@ -5,4 +5,8 @@
     <string name="register">Register</string>
     <string name="chore_tracker_app">Chore Tracker App</string>
     <string name="username_or_email">username or email</string>
+    <string name="username">username</string>
+    <string name="name">name</string>
+    <string name="verify">Verify</string>
+    <string name="verification_code">verification code</string>
 </resources>
