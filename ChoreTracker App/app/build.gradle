@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.amazonaws.appsync'
+apply plugin: 'com.amazonaws.appsync' // REQUIRED
 
 android {
     compileSdkVersion 29
@@ -35,7 +35,7 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-core:2.16.11'
     //AppSync SDK
     implementation 'com.amplifyframework:aws-api:0.10.0'
-    implementation 'com.amazonaws:aws-android-sdk-appsync:2.8.3'
+    implementation 'com.amazonaws:aws-android-sdk-appsync:2.9.0'
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     // Mobile Client for initializing the SDK
@@ -48,4 +48,5 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.16.8'
     implementation 'com.amazonaws:aws-android-sdk-ddb:2.16.8'
     implementation 'com.amazonaws:aws-android-sdk-ddb-document:2.16.8'
+    implementation 'com.amazonaws:aws-android-sdk-cognitoauth:2.16.11'
 }
