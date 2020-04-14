@@ -35,6 +35,8 @@
         <activity android:name=".VerificationActivity" />
         <activity android:name=".Daily" />
         <activity android:name=".Weekly" />
+        <activity android:name=".Groups" />
+        <activity android:name=".AddEvents" />
     </application>
 
 </manifest>
