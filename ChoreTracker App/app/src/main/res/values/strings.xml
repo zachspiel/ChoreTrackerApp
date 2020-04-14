@@ -9,4 +9,5 @@
     <string name="name">name</string>
     <string name="verify">Verify</string>
     <string name="verification_code">verification code</string>
+    <string name="forgot_your_password_click_here_to_reset_it">Forgot your password? Click here to reset it</string>
 </resources>
