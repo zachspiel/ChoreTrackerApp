@@ -30,10 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/addChoresBttn" />
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.253" />
-
+    <!--
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -42,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
 
     <Button
         android:id="@+id/groupBttn"
@@ -93,7 +90,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="160dp"
                 android:layout_marginTop="10dp"
-                android:text="@string/signin"
+                android:text="@string/sign_in_button_text"
                 android:background="@android:color/holo_blue_bright"/>
 
         </RelativeLayout>

@@ -15,6 +15,8 @@
     <string name="settings_theme">Theme:</string>
     <string name="members">Members</string>
     <string name="chores">Chores</string>
+    <string name="manage_chores">manage chores</string>
+    <string name="groups">groups</string>
 
     <string-array name="settings_theme_options">
         <item>Light</item>
