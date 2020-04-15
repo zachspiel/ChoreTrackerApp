@@ -23,20 +23,29 @@
         <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <activity android:name=".MainActivity">
-            <intent-filter>
+           <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AuthenticationActivity"/>
+
+
         <activity android:name=".Login" />
         <activity android:name=".CalendarView" />
         <activity android:name=".Register" />
-        <activity android:name=".VerificationActivity" />
         <activity android:name=".Daily" />
         <activity android:name=".Weekly" />
-        <activity android:name=".Groups" />
-        <activity android:name=".AddEvents" />
+        <activity android:name=".GroupDisplay" />
+        <activity android:name=".addEvents" />
+        <activity android:name=".Events" />
+        <activity android:name=".AWSBucket" />
+        <activity android:name=".Logout" />
+
+        <service android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
     </application>
 
 </manifest>

@@ -13,9 +13,8 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHa
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.amazonaws.mobile.client.internal.oauth2.OAuth2Client.TAG;
+public class VerifyActivity extends AppCompatActivity {
 
-public class VerificationActivity extends AppCompatActivity {
     private static final String TAG = "Cognito";
     private CognitoUserPool userPool;
 
@@ -24,17 +23,15 @@ public class VerificationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verify);
 
-        final EditText verificationCode = findViewById(R.id.verificationCode);
-        final EditText username = findViewById(R.id.verifyUsername);
+        final EditText editTextCode = findViewById(R.id.code);
+        final EditText editTextUsername = findViewById(R.id.username);
 
-        Button buttonVerify = findViewById(R.id.button5);
-
+        Button buttonVerify = findViewById(R.id.button);
         buttonVerify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new ConfirmTask().execute(String.valueOf(verificationCode.getText()), String.valueOf(username.getText()));
+                new ConfirmTask().execute(String.valueOf(editTextCode.getText()), String.valueOf(editTextUsername.getText()));
             }
-
         });
     }
 
@@ -42,36 +39,34 @@ public class VerificationActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(String... strings) {
-
             final String[] result = new String[1];
 
-            final GenericHandler confirmationCallback = new GenericHandler() {
+            final GenericHandler confirmCallback = new GenericHandler() {
                 @Override
                 public void onSuccess() {
-                    // if successful confirmation
                     result[0] = "Succeeded!";
                 }
 
                 @Override
                 public void onFailure(Exception exception) {
-                    // if confirmation failed
                     result[0] = "Failed: " + exception.getMessage();
                 }
             };
 
-            CognitoSettings cognitoSettings = new CognitoSettings(VerificationActivity.this);
+            CognitoSettings cognitoSettings = new CognitoSettings( VerifyActivity.this );
 
             CognitoUser thisUser = cognitoSettings.getUserPool().getUser(strings[1]);
 
-            thisUser.confirmSignUp(strings[0], false, confirmationCallback);
+            thisUser.confirmSignUp(strings[0], false, confirmCallback);
 
             return result[0];
         }
 
+        @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
 
-            Log.i(TAG, "Confirmation result: " + result);
+            Log.i(TAG, "Confirmation result: " + result );
         }
     }
 }

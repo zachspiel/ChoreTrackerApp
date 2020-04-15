@@ -7,13 +7,13 @@
     <TextView
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
-        android:text = "Chore Tracker App"
+        android:text = "Loading..."
         android:id = "@+id/textView"
         android:layout_centerHorizontal = "true"
         android:textColor = "#000"
         android:textSize = "35dp" />
 
-
+<!--
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="171dp"
@@ -83,7 +83,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="63dp"
         android:layout_marginTop="36dp"
-        android:text="@string/forgot_your_password_click_here_to_reset_it" />
+        android:text="@string/forgot_your_password_click_here_to_reset_it" />-->
 
 
 </RelativeLayout>

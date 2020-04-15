@@ -1,45 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Chore Tracker App"
+        android:id = "@+id/textView"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#000"
+        android:textSize = "35dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="216dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
 
     <EditText
-        android:id="@+id/verificationCode"
+        android:id="@+id/code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
-        android:ems="10"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:focusable="true"
         android:hint="@string/verification_code"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#000" />
 
     <EditText
-        android:id="@+id/verifyUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:inputType="textPassword"
         android:ems="10"
-        android:hint="@string/username"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/verificationCode" />
+        android:id="@+id/username"
+        android:layout_below="@+id/code"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/code"
+        android:textColorHint="#000"
+        android:hint="@string/Username"
+        android:layout_marginBottom="25dp"
+        />
+
+
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
+        android:background="#CCF7FF"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:text="@string/verify"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/verifyUsername"
-        app:layout_constraintVertical_bias="0.0" />
+        android:text="Verify"
+        android:gravity="center"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username"
+        android:layout_marginBottom="25dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/forgot_your_password_click_here_to_reset_it" />
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-android-sdk-auth-userpools:2.16.11@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a645978295504f803527207026160d9e/jetified-aws-android-sdk-auth-userpools-2.16.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a645978295504f803527207026160d9e/jetified-aws-android-sdk-auth-userpools-2.16.11/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-auth-userpools/2.16.11/7107423d9c20bca2291a0b83572f93b4aa299369/aws-android-sdk-auth-userpools-2.16.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-auth-userpools/2.16.11/c5604c6cc56615c8457b2a711944a4a30b130030/aws-android-sdk-auth-userpools-2.16.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
