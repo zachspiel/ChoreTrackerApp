@@ -1,4 +1,4 @@
-                                                    Deliverable 7 - Implementation 2
+                                                    Deliverable 6 - Implementation 2
                                                       Chore Tracker App
                                                    =========================
 
