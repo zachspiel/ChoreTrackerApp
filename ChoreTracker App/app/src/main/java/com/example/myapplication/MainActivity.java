@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button next = (Button) findViewById(R.id.button);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), CalendarView.class);
+                Intent myIntent = new Intent(view.getContext(), testCalendar.class);
                 startActivityForResult(myIntent, 0);
             }
 
