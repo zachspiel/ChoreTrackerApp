@@ -4,9 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,5 +64,21 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });*/
+    }
+
+    public void sendEventFeedback(View view) {
+        final EditText nameField = (EditText) findViewById(R.id.editText);
+        String name = nameField.getText().toString();
+
+        final EditText startField = (EditText) findViewById(R.id.editText2);
+        String start = startField.getText().toString();
+
+        final EditText endField = (EditText) findViewById(R.id.editText3);
+        String end = endField.getText().toString();
+
+        final RadioGroup groupSelect = (RadioGroup) findViewById(R.id.radioGroup);
+        int group = groupSelect.getCheckedRadioButtonId();
+
+
     }
 }
