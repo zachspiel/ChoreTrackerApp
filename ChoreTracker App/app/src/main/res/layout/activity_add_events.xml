@@ -33,6 +33,7 @@
         android:layout_height = "wrap_content"
         android:id = "@+id/editText"
         android:hint = "(Name)"
+        android:inputType="textPersonName"
         android:focusable = "true"
         android:textColorHighlight = "#ff7eff15"
         android:textColorHint = "#969FAA"
@@ -65,6 +66,7 @@
         android:layout_alignEnd="@+id/editText"
         android:textColorHint="#969FAA"
         android:hint="(Date)"
+        android:inputType="date"
         android:layout_marginBottom="25dp"
         />
 
@@ -88,6 +90,7 @@
         android:layout_alignEnd="@+id/editText2"
         android:textColorHint="#969FAA"
         android:hint="(Date)"
+        android:inputType="date"
         android:layout_marginBottom="25dp"
         />
     <TextView
@@ -137,6 +140,7 @@
         android:layout_toStartOf="@id/textView"
         android:layout_toLeftOf="@id/textView"
         android:background="#CCF7FF"
+        android:onClick="sendEventFeedback"
         android:text="Add" />
 
     <Button
