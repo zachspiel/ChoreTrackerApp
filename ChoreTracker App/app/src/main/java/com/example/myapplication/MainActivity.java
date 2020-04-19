@@ -4,9 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,5 +66,30 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });*/
+    }
+
+    // temporary array just to store events created until database integration is complete
+    ArrayList<Event> eventArrayList = new ArrayList<Event>();
+
+    // method fired on click of "add" button on event form
+    public void sendEventFeedback(View view) {
+        final EditText nameField = (EditText) findViewById(R.id.editEventName);
+        String eventName = nameField.getText().toString();
+
+        final EditText startField = (EditText) findViewById(R.id.editStartDate);
+        String start = startField.getText().toString();
+
+        final EditText endField = (EditText) findViewById(R.id.editEndDate);
+        String end = endField.getText().toString();
+
+        final EditText desc = (EditText) findViewById(R.id.editDesc);
+        String description = desc.getText().toString();
+
+        final RadioGroup groupSelect = (RadioGroup) findViewById(R.id.radioGroup);
+        int group = groupSelect.getCheckedRadioButtonId();
+
+        // creates event and adds to events list, John Doe is a stand in user, user will be
+        // the name of the person currently logged in
+        eventArrayList.add(new Event(eventName, start, description, "John Doe"));
     }
 }
