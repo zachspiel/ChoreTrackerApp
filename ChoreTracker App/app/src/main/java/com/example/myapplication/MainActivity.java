@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // temporary array just to store events created until database integration is complete
-    ArrayList<Event> events = new ArrayList<Event>();
+    ArrayList<Event> eventArrayList = new ArrayList<Event>();
 
     // method fired on click of "add" button on event form
     public void sendEventFeedback(View view) {
@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
 
         // creates event and adds to events list, John Doe is a stand in user, user will be
         // the name of the person currently logged in
-        Event newEvent = new Event(eventName, start, description, "John Doe");
-        events.add(newEvent);
+        eventArrayList.add(new Event(eventName, start, description, "John Doe"));
     }
 }

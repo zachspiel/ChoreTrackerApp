@@ -11,15 +11,28 @@ public class Event {
     public String assignedUser;
     public int priority;
 
+    public Event()
+    {
+        name = "Event";
+        startTime = 0;
+        endTime = 0;
+        dateAssigned = "1/1/2020";
+        completionStatus = false;
+        description = "Default event";
+        difficulty = "Easy";
+        assignedUser = "No user assigned";
+        priority = 1;
+    }
     public Event(String name, String date, String description, String user)
     {
         this.name = name;
+        startTime = 0;
+        endTime = 0;
         dateAssigned = date;
-        this.description = description;
-        assignedUser = user;
-
         completionStatus = false;
-        difficulty = "easy";
+        this.description = description;
+        difficulty = "Easy";
+        assignedUser = user;
         priority = 1;
     }
 
