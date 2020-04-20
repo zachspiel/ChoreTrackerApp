@@ -66,6 +66,10 @@ Implementation:
 <h3>3. Demo </h3>
 
 <h3>4. Code quality </h3>
+Describe how your team managed code quality. What were your policies, conventions,
+adopted best practices, etc. to foster high quality code? 
+
+Code quality for this implementation did not have any specific rule or policies. The main person that was in charge of the branch or quality assurance had to go over the files that needed to be merged to make sure that it had no conflict in the branch. 
 
 <h3>5. Lesson learned </h3>
 
