@@ -71,10 +71,9 @@ Implementation:
 <h3>3. Demo </h3>
 
 <h3>4. Code quality </h3>
-Describe how your team managed code quality. What were your policies, conventions,
-adopted best practices, etc. to foster high quality code? 
 
-Code quality for this implementation did not have any specific rule or policies. The main person that was in charge of the branch or quality assurance had to go over the files that needed to be merged to make sure that it had no conflict in the branch. 
+In order to maintain good code quality, we used several techniques we learned in class such as low coupling, high cohesion and team collaboration. We wanted to make sure our project can function well due to one aspect of the project not working so we implemented low coupling. Every bit of the app can work on it's own and has little to no dependencies on other activities. Using high cohesion helps us by creating a cohesive project that can be easily tested and creates maintainable code. Lastly we use team collaboration to ensure that the code we submit is reviewed and doesn't break the current product in place. We make sure every bit is reviewed even if the user who submitted the code is quality assurance. This insures that multiple eyes can make sure what we are uploading is for the best of the project and any mistakes can be corrected before we make any critical errors.
+quick writeup thoughts?
 
 <h3>5. Lesson learned </h3>
 
