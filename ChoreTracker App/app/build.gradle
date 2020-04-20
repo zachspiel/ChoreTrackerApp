@@ -49,16 +49,14 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-cognitoauth:2.16.11'
     implementation 'com.amazonaws:aws-android-sdk-s3:2.16.8'
     implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'com.riontech:calendar:1.0'
 
     //For AWSMobileClient only:
     implementation 'com.amazonaws:aws-android-sdk-mobile-client:2.16.11'
 
-    //For the drop-in UI also:
+//For the drop-in UI also:
     implementation 'com.amazonaws:aws-android-sdk-auth-userpools:2.16.11'
     implementation 'com.amazonaws:aws-android-sdk-auth-ui:2.16.11'
 
-    //For hosted UI also:
+//For hosted UI also:
     implementation 'com.amazonaws:aws-android-sdk-cognitoauth:2.16.11'
 }
