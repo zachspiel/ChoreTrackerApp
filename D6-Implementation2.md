@@ -3,6 +3,9 @@
                                                    =========================
 
 <h3>1. Introduction </h3>
+The Chore Tracker App is designed as an easy to use tracking tool that takes under 30 seconds to use. Upon logging into the app, the user’s are greeted with several options, such as adding an event, viewing their event calendar, and viewing all the groups they are registered under. When adding an event, a user needs to put in an event name as well as a start and end date. The event is then forwarded to their calendar. Users can view a list of their events and swipe to mark them completed. Users can also open their calendar and see the events that they have registered.
+
+A user is able to sign out and view their information by clicking the i icon on the top right of the homepage. This is unique to each registered user, and displays their unique username. In this panel, users can sign out and exit the app as well. 
 
 <h3>2. Implementation Requirements</h3>
 Trello: https://trello.com/b/YXtiDz3w/main
