@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/corkboard">
+
+    <!--Layout that replaces the appBar-->
+    <LinearLayout
+        android:id="@+id/topLinLayout"
+        android:layout_width="418dp"
+        android:layout_height="59dp"
+        android:background="#D0000000"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="The Chore Tracker App"
+            android:textSize="30dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textColor="#99162A"/>
+
+        <ImageButton
+            android:id="@+id/user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+
+
+    </LinearLayout>
+
+<!--Layout that scrolls out on button click above-->
+    <LinearLayout
+        android:id="@+id/userMenu"
+        android:layout_width="300dp"
+        android:layout_height="736dp"
+        android:background="#EC131313"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@id/userNameField"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="50dp"
+            android:text="Hello [Anonymous] "
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@id/userNameField"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="50dp"
+            android:text="Settings: "
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+
+        <ImageButton
+            android:id="@+id/settingsButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@android:drawable/ic_menu_manage" />
+
+        <Button
+            android:id="@+id/signinbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="280dp"
+            android:background="#214491"
+            android:text="@string/signin"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#7E2626"
+            android:text="@string/exit"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+<!--Linear Layout that holds the settings, signin, and exit on the bottom of page-->
+    <LinearLayout
+        android:id="@+id/bottomLinLayout"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@id/todaysQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/todaysQuote"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+<!--Layout that arranges the middle buttons-->
+    <RelativeLayout
+        android:id="@+id/bttnLayout"
+        android:layout_width="405dp"
+        android:layout_height="570dp"
+        android:layout_marginBottom="352dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottomLinLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topLinLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <Button
+            android:id="@+id/addChoresBttn"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/calendarBttn"
+            android:layout_marginBottom="127dp"
+            android:background="#FFFF88"
+            android:text="@string/manage_chores"
+            app:layout_constraintBottom_toTopOf="@+id/calendarBttn" />
+
+        <Button
+            android:id="@+id/calendarBttn"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/groupBttn"
+            android:layout_marginBottom="135dp"
+            android:background="#FFFF88"
+
+            android:text="@string/view_calendar" />
+
+
+        <Button
+            android:id="@+id/groupBttn"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:text="@string/groups"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="#FFFF88"/>
+
+        <ImageView
+            android:id="@+id/tack1"
+            android:layout_width="163dp"
+            android:layout_height="38dp"
+            android:layout_above="@+id/addChoresBttn"
+            android:layout_alignStart="@+id/addChoresBttn"
+            android:layout_alignLeft="@+id/addChoresBttn"
+            android:layout_marginStart="-70dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginBottom="-30dp"
+            android:elevation="3dp"
+            app:srcCompat="@drawable/tack" />
+
+        <ImageView
+            android:id="@+id/tack2"
+            android:layout_width="163dp"
+            android:layout_height="38dp"
+            android:layout_above="@+id/calendarBttn"
+            android:layout_alignStart="@+id/calendarBttn"
+            android:layout_alignLeft="@+id/calendarBttn"
+            android:layout_marginStart="-70dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginBottom="-30dp"
+            android:elevation="3dp"
+            app:srcCompat="@drawable/tack" />
+
+        <ImageView
+            android:id="@+id/tack3"
+            android:layout_width="163dp"
+            android:layout_height="38dp"
+            android:layout_above="@+id/addChoresBttn"
+
+            android:layout_alignStart="@+id/groupBttn"
+            android:layout_alignLeft="@+id/groupBttn"
+            android:layout_marginStart="-63dp"
+            android:layout_marginLeft="-63dp"
+            android:layout_marginBottom="-393dp"
+            android:elevation="3dp"
+            app:srcCompat="@drawable/tack" />
+
+    </RelativeLayout>
+
+    <!--    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".ui.home.activities.TransactionSearchActivity">
+
+        <item
+            android:id="@+id/action_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="search"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+            app:showAsAction="always" />
+
+        <item android:id="@+id/action_setting"
+            android:title="categories"
+            android:icon="@drawable/icon_settings_h"
+            app:showAsAction="always"
+            />-->
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
