@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
@@ -60,8 +61,8 @@ public class Login extends AppCompatActivity {
                 SignInUIOptions.builder()
                 .nextActivity(MainActivity.class)
                 .logo(R.drawable.logo)
-                .backgroundColor(R.color.background)
-                .canCancel(false)
+                        .backgroundColor(Color.WHITE)
+                .canCancel(true)
                 .build(),
                 new Callback<UserStateDetails>() {
 
