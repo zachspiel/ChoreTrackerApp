@@ -28,11 +28,10 @@ Implementation:
   [Event finalized pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/92438da72ada2ce060af277170b125ea9c4b6350)
   
 - Andrew M: Adding users, improving UI design plus Navigation through calendars
-
- [Calendar navigation pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/84670e13b3d4bcc12251a5dce977eade449fd2a9)
+  [Calendar navigation pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/84670e13b3d4bcc12251a5dce977eade449fd2a9)
  
 - Zach W: Adding groups display
-[Group display pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ae0eee029989fd5d7c07243f1b308d7139a0fc8d)
+  [Group display pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ae0eee029989fd5d7c07243f1b308d7139a0fc8d)
 
 <h3>3. Demo </h3>
 
