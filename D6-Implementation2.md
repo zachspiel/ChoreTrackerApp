@@ -10,19 +10,25 @@ Trello: https://trello.com/b/YXtiDz3w/main
 Implementation:
 
 - Joe V: Navigation
+
   [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/3c4ef959576a803932fc127497bfe34e73f1ad7c)
   
 - Zach S: Database, added backend and connections
+
   [Setting Pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ad7b45493c4ba765d21510e6df8d891cfa9be761)
+  
   [Database with backend and connection pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/d8fce98026a755504f3d78a68dbc3090ea1eada6)
   
 - Leslie G: Event class
-  [Event pull request] (https://github.com/zachspiel/ChoreTrackerApp/commit/b7cfab861745e21233cf931d3e948664d15d22f6)
+
+  [Event pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/b7cfab861745e21233cf931d3e948664d15d22f6)
   
 - Olivia T: Event Form for database
-  [Event pull request] (https://github.com/zachspiel/ChoreTrackerApp/commit/92438da72ada2ce060af277170b125ea9c4b6350)
+
+  [Event finalized pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/92438da72ada2ce060af277170b125ea9c4b6350)
   
 - Andrew M: Adding users, improving UI design plus Navigation through calendars
+
  [Calendar navigation pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/84670e13b3d4bcc12251a5dce977eade449fd2a9)
  
 - Zach W: Adding groups display
