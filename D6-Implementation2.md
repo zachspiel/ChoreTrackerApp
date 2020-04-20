@@ -13,25 +13,45 @@ Implementation:
 
   [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/3c4ef959576a803932fc127497bfe34e73f1ad7c)
   
+  Review of pull request: Zach S, main person helping with databse branch.
+  
 - Zach S: Database, added backend and connections
 
   [Setting Pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ad7b45493c4ba765d21510e6df8d891cfa9be761)
   
+  Review of pull request: Zach W, Quality Assurance 
+  
   [Database with backend and connection pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/d8fce98026a755504f3d78a68dbc3090ea1eada6)
+  
+  Review of pull request: Zach W, Quality Assurance
+
   
 - Leslie G: Event class
 
   [Event pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/b7cfab861745e21233cf931d3e948664d15d22f6)
   
+  Review of pull request: Olivia, She was the main person to contribute to Event form
+
+  
 - Olivia T: Event Form for database
 
   [Event finalized pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/92438da72ada2ce060af277170b125ea9c4b6350)
   
+  Review of pull request: Zach W, he was quality assurance
+
+  
 - Andrew M: Adding users, improving UI design plus Navigation through calendars
+
   [Calendar navigation pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/84670e13b3d4bcc12251a5dce977eade449fd2a9)
  
+  Review of pull request: Zach S, main person to work on databse branch
+
 - Zach W: Adding groups display
+
   [Group display pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ae0eee029989fd5d7c07243f1b308d7139a0fc8d)
+  
+  Review of pull request: Zach W, Quality assurance
+
 
 <h3>3. Demo </h3>
 
