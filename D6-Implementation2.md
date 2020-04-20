@@ -12,14 +12,15 @@ Trello: https://trello.com/b/YXtiDz3w/main
 
 Implementation:
 
-- Joe V: Navigation
-
-  [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/3c4ef959576a803932fc127497bfe34e73f1ad7c)
+- Joe V: Navigation, Home Page, User and Admin Classes.  
+  [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/4bdc2c584db17c2691333f8ad5cb05444527a3dc)
+  [Admin Class](https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/Admin.java)
+  [User Class](https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/User.java)
   
   ![MainPage](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/JoeMain_Activity.png)
   ![MainPage2](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/JoeMain_Activity2.png)
   
-  Review of pull request: Zach S, main person helping with databse branch.
+  Review of pull requests: Zach S, main person helping with databse branch.
   
 - Zach S: Database, added backend and connections
 
