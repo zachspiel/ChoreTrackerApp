@@ -1,48 +1,29 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
-import com.amazonaws.amplify.generated.graphql.CreateBlogMutation;
-import com.amazonaws.amplify.generated.graphql.CreatePostMutation;
-import com.amazonaws.amplify.generated.graphql.GetBlogQuery;
 import com.amazonaws.amplify.generated.graphql.ListBlogsQuery;
 import com.amazonaws.mobile.client.AWSMobileClient;
 import com.amazonaws.mobile.client.Callback;
-import com.amazonaws.mobile.client.HostedUIOptions;
-import com.amazonaws.mobile.client.SignInUIOptions;
 import com.amazonaws.mobile.client.UserStateDetails;
-import com.amazonaws.mobile.client.UserStateListener;
-import com.amazonaws.mobile.client.results.SignInResult;
 import com.amazonaws.mobile.config.AWSConfiguration;
 import com.amazonaws.mobileconnectors.appsync.AWSAppSyncClient;
-import com.amazonaws.mobileconnectors.appsync.fetcher.AppSyncResponseFetchers;
 import com.amazonaws.mobileconnectors.appsync.sigv4.BasicCognitoUserPoolsAuthProvider;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserPool;
 import com.amazonaws.regions.Regions;
-import com.amplifyframework.api.aws.AWSApiPlugin;
-import com.amplifyframework.core.Amplify;
-import com.apollographql.apollo.GraphQLCall;
-import com.apollographql.apollo.api.Response;
-import com.apollographql.apollo.exception.ApolloException;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-
-import javax.annotation.Nonnull;
+import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
     private AWSAppSyncClient mAWSAppSyncClient;
+    private ArrayList <ListBlogsQuery.Item> mPets;
+    private final String TAG = MainActivity.class.getSimpleName();
     Button signInButton;
 
     @Override
@@ -50,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         signInButton = findViewById(R.id.signinbutton);
-        final String TAG = "TESTING";
+
         AWSMobileClient.getInstance().initialize(getApplicationContext(), new Callback<UserStateDetails>() {
             @Override
             public void onResult(UserStateDetails userStateDetails) {
-                switch (userStateDetails.getUserState()){
+                switch (userStateDetails.getUserState()) {
                     case SIGNED_IN:
                         runOnUiThread(new Runnable() {
                             @Override
@@ -95,6 +76,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        AWSMobileClient.getInstance().addUserStateListener(userStateDetails -> {
+            switch (userStateDetails.getUserState()) {
+                case SIGNED_OUT:
+                    // user clicked signout button and signedout
+                    Log.i("AuthQuickStart", "user signed out");
+                    Intent intent = new Intent(MainActivity.this, Login.class);
+                    startActivity(intent);
+                    break;
+                case SIGNED_OUT_USER_POOLS_TOKENS_INVALID:
+                    Log.i("AuthQuickStart", "need to login again.");
+                    Intent login = new Intent(MainActivity.this, Login.class);
+                    startActivity(login);
+                    break;
+                default:
+                    Log.i("AuthQuickStart", "unsupported");
+            }
+        });
+
         CognitoSettings currentPool = new CognitoSettings(this);
 
         CognitoUserPool userPool = currentPool.getUserPool();
@@ -106,21 +105,23 @@ public class MainActivity extends AppCompatActivity {
                 .awsConfiguration(new AWSConfiguration(getApplicationContext()))
                 .build();
 
-        query();
+        ClientFactory.init(this);
 
-        /*
+
         Button calendarBttn = (Button) findViewById(R.id.calendarBttn);
         calendarBttn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), Weekly.class);
+                Intent myIntent = new Intent(view.getContext(), testCalendar.class);
                 startActivityForResult(myIntent, 0);
             }
 
         });
+
+
         Button addChoresBttn = (Button) findViewById(R.id.addChoresBttn);
         addChoresBttn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), addEvents.class);
+                Intent myIntent = new Intent(view.getContext(), Events.class);
                 startActivityForResult(myIntent, 0);
             }
 
@@ -137,34 +138,10 @@ public class MainActivity extends AppCompatActivity {
         ImageButton exitButton = (ImageButton) findViewById(R.id.exitButton);
         exitButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                //finish();
+                finish();
 
             }
-
-        });*/
+        });
     }
 
-
-    public void query(){
-        mAWSAppSyncClient.query(ListBlogsQuery.builder().build())
-                .responseFetcher(AppSyncResponseFetchers.CACHE_AND_NETWORK)
-                .enqueue(todosCallback);
-    }
-
-    public void runMutation(){
-
-
-    }
-
-    private GraphQLCall.Callback<ListBlogsQuery.Data> todosCallback = new GraphQLCall.Callback<ListBlogsQuery.Data>() {
-        @Override
-        public void onResponse(@Nonnull Response<ListBlogsQuery.Data> response) {
-            Log.i("Results", response.data().listBlogs().items().toString());
-        }
-
-        @Override
-        public void onFailure(@Nonnull ApolloException e) {
-            Log.e("ERROR", e.toString());
-        }
-    };
 }

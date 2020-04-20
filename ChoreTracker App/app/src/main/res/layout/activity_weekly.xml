@@ -50,7 +50,8 @@
 
             <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="140dp"/>
             <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="300dp"/>
-            <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="460dp"/>
+            <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="460dp">
+            </View>
             <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="660dp"/>
             <View android:background="#777" android:layout_width = "fill_parent" android:layout_height="1dp" android:layout_marginTop="820dp"/>
 
@@ -243,6 +244,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="920dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
                 </RelativeLayout>
 
                 <RelativeLayout

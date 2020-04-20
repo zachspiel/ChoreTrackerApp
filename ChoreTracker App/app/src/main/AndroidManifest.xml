@@ -28,10 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AuthenticationActivity"/>
-
-
+        <activity android:name=".testCalendar" />
         <activity android:name=".Login" />
         <activity android:name=".CalendarView" />
         <activity android:name=".Register" />
@@ -40,7 +37,6 @@
         <activity android:name=".GroupDisplay" />
         <activity android:name=".addEvents" />
         <activity android:name=".Events" />
-        <activity android:name=".AWSBucket" />
         <activity android:name=".Logout" />
 
         <service android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService" />
