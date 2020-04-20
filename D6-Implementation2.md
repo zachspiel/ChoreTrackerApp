@@ -12,13 +12,13 @@ Trello: https://trello.com/b/YXtiDz3w/main
 
 Implementation:
 
-- Joe V: Navigation, Home Page, User and Admin Classes.
-
-  [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/3c4ef959576a803932fc127497bfe34e73f1ad7c)
-  
+- Joe V: Navigation, Home Page, User and Admin Classes.  
   [Main Activity pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/4bdc2c584db17c2691333f8ad5cb05444527a3dc)
   [Admin Class](https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/Admin.java)
   [User Class](https://github.com/zachspiel/ChoreTrackerApp/blob/master/javasrc/d5templatemethod/User.java)
+  
+  ![MainPage](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/JoeMain_Activity.png)
+  ![MainPage2](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/JoeMain_Activity2.png)
   
   Review of pull requests: Zach S, main person helping with databse branch.
   
@@ -31,11 +31,12 @@ Implementation:
   [Database with backend and connection pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/d8fce98026a755504f3d78a68dbc3090ea1eada6)
   
   Review of pull request: Zach W, Quality Assurance
-
   
 - Leslie G: Minor part of Event class
 
   [Event pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/b7cfab861745e21233cf931d3e948664d15d22f6)
+  
+  ![Event](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/LeslieAdd_event.JPG)
   
   Review of pull request: Olivia, She was the main person to contribute to Event form
 
@@ -56,6 +57,9 @@ Implementation:
 - Zach W: Adding groups display
 
   [Group display pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/ae0eee029989fd5d7c07243f1b308d7139a0fc8d)
+  
+  ![Groups](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/ZacharyGroups.JPG)
+  ![Groups](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/ZacharyGroupDisplay.JPG)
   
   Review of pull request: Zach W, Quality assurance
 
