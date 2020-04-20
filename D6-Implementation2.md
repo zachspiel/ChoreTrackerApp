@@ -26,7 +26,7 @@ Implementation:
   Review of pull request: Zach W, Quality Assurance
 
   
-- Leslie G: Event class
+- Leslie G: Minor part of Event class
 
   [Event pull request](https://github.com/zachspiel/ChoreTrackerApp/commit/b7cfab861745e21233cf931d3e948664d15d22f6)
   
