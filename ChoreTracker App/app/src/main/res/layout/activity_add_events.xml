@@ -18,6 +18,7 @@
         android:textColor="#000"
 
         android:textSize="35dp" />
+
     <TextView
         android:textColor="#000"
         android:layout_width="wrap_content"
@@ -34,9 +35,6 @@
         android:id = "@+id/editText"
         android:hint = "(Name)"
         android:focusable = "true"
-        android:textColorHighlight = "#ff7eff15"
-        android:textColorHint = "#969FAA"
-
         android:layout_below = "@+id/EventName"
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
@@ -50,9 +48,19 @@
         android:id="@+id/dateStart"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
-        android:text="Start Date/Time"
+        android:text="Select date"
         android:layout_marginBottom="5dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/buttonDate"
+        android:layout_below="@+id/dateStart"
+        android:layout_marginBottom="25dp"
+        android:text="Select a date"
+        />
+<!--
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,42 +98,65 @@
         android:textColorHint="#969FAA"
         android:hint="(Date)"
         android:layout_marginBottom="25dp"
-        />
+        />-->
 
     <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:id="@+id/description_end"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDate"
+        android:text="Description"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editText3"
-        android:id="@+id/selectText"
-        android:text="Select Group (Optional)"
+        android:ems="10"
+        android:id="@+id/editDesc"
+        android:layout_below="@+id/description_end"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:textColorHint="#969FAA"
+        android:hint="(Description)"
         android:layout_marginBottom="25dp"
         />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/selectText">
-
-        <RadioButton
-            android:id="@+id/radioGroup1"
+    <!--
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Group 1"
-            android:checked="true" />
-
-        <RadioButton
-            android:id="@+id/radioGroup2"
+            android:layout_below="@id/editText3"
+            android:id="@+id/selectText"
+            android:text="Select Group (Optional)"
+            android:layout_marginBottom="25dp"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Group 2" />
-        <RadioButton
-            android:id="@+id/radioGroup3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Group 3" />
+            android:layout_below="@id/selectText">
 
-    </RadioGroup>
+            <RadioButton
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 1"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 2" />
+            <RadioButton
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 3" />
+
+        </RadioGroup>-->
 
     <Button
         android:id="@+id/button"
@@ -134,9 +165,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="-138dp"
-        android:layout_marginRight="-138dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="-113dp"
+        android:layout_marginRight="-113dp"
+        android:layout_marginBottom="150dp"
         android:layout_toStartOf="@id/textView"
         android:layout_toLeftOf="@id/textView"
         android:background="#CCF7FF"
@@ -148,14 +179,13 @@
         android:layout_height="36dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="-153dp"
-        android:layout_marginLeft="-153dp"
+        android:layout_marginStart="-145dp"
+        android:layout_marginLeft="-145dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="150dp"
         android:layout_toEndOf="@id/textView"
         android:layout_toRightOf="@id/textView"
         android:background="#CCF7FF"
         android:text="Cancel" />
-
 
 </RelativeLayout>
