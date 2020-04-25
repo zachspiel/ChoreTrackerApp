@@ -6,10 +6,10 @@
 
 <h3>2. Verification (tests)</h3>
 
-  <h2>2.1 Unit Tests</h2>
+  <h4>2.1 Unit Tests</h4>
   
-  <h2>2.2 Integration Tests</h2>
+  <h4>2.2 Integration Tests</h4>
   
-  <h2>2.3 Acceptance</h2>
+  <h4>2.3 Acceptance</h4>
   
 <h3>3. Validation (user evaluation)</h3>
