@@ -35,6 +35,8 @@
         <activity android:name=".Daily" />
         <activity android:name=".Weekly" />
         <activity android:name=".GroupDisplay" />
+        <activity android:name=".Group" />
+        <activity android:name=".GroupMember" />
         <activity android:name=".addEvents" />
         <activity android:name=".Events" />
         <activity android:name=".Logout" />

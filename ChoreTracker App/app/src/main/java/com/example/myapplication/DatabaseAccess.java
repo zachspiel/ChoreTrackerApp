@@ -55,14 +55,14 @@ public class DatabaseAccess extends SQLiteOpenHelper {
      * */
 
     public DatabaseAccess(Context context) {
-        super(context, DATABASE_NAME, null, 4);
+        super(context, DATABASE_NAME, null, 5);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table " + USER_TABLE + "  (ID INTEGER PRIMARY KEY AUTOINCREMENT, USERNAME TEXT, SETTINGS_COLOR TEXT, SETTINGS_PICTURE TEXT) ");
         db.execSQL("create table " + EVENTS_TABLE + "  (ID INTEGER PRIMARY KEY AUTOINCREMENT, USERNAME TEXT, EVENT_NAME TEXT, EVENT_DATE TEXT, EVENT_DESC TEXT) ");
-        db.execSQL("create table " + GROUP_TABLE + "  (ID INTEGER PRIMARY KEY AUTOINCREMENT, GROUP_NAME TEXT, USERNAME TEXT, ADMIN TEXT) ");
+        db.execSQL("create table " + GROUP_TABLE + "  (ID INTEGER PRIMARY KEY AUTOINCREMENT, USERNAME TEXT, GROUP_ADMIN TEXT) ");
     }
 
     @Override
@@ -112,7 +112,7 @@ public class DatabaseAccess extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
 
-        contentValues.put(COL_GROUP_NAME, groupName);
+        contentValues.put(COL_USERNAME, groupName);
         contentValues.put(COL_GROUP_ADMIN, admin);
 
         long result = db.insert(GROUP_TABLE,null, contentValues);
@@ -131,10 +131,30 @@ public class DatabaseAccess extends SQLiteOpenHelper {
         return res;
     }
 
+    public Cursor getAllMembers() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String username = AWSMobileClient.getInstance().getUsername();
+        Cursor res = db.rawQuery("select * from " + GROUP_TABLE, null);
+        return res;
+    }
+
     public void deleteItem(String event) {
         SQLiteDatabase db = this.getWritableDatabase();
 
         long result = db.delete(EVENTS_TABLE, COL_EVENT_NAME + " = ?", new String[] {String.valueOf(event)});
+
+        if( result > 0) {
+            Log.i("DELETED", "SUCCESSFULL");
+        }
+        else {
+            Log.i("FAILED", "NOT DOUND");
+        }
+    }
+
+    public void deleteGroup(String event) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        long result = db.delete(GROUP_TABLE, COL_USERNAME + " = ?", new String[] {String.valueOf(event)});
 
         if( result > 0) {
             Log.i("DELETED", "SUCCESSFULL");

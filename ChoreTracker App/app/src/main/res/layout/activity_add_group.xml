@@ -1,0 +1,192 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#CCF7FF"
+        android:text="Add Group Member"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#000"
+
+        android:textSize="35dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:id="@+id/EventName"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:text="Member Name"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_marginBottom="25dp"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/editText"
+        android:hint = "(Name)"
+        android:focusable = "true"
+        android:layout_below = "@+id/EventName"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        />
+
+    <!--
+      <TextView
+          android:textColor="#000"
+          android:layout_width="wrap_content"
+          android:id="@+id/dateStart"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/editText"
+          android:text="Select date"
+          android:layout_marginBottom="5dp" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:id="@+id/buttonDate"
+          android:layout_below="@+id/dateStart"
+          android:layout_marginBottom="25dp"
+          android:text="Select a date"
+          />
+
+          <EditText
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:id="@+id/editText2"
+              android:layout_below="@+id/dateStart"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_alignRight="@+id/editText"
+              android:layout_alignEnd="@+id/editText"
+              android:textColorHint="#969FAA"
+              android:hint="(Date)"
+              android:layout_marginBottom="25dp"
+              />
+
+          <TextView
+              android:textColor="#000"
+              android:layout_width="wrap_content"
+              android:id="@+id/dateEnd"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/editText2"
+              android:text="End Date/Time"
+              android:layout_marginBottom="5dp" />
+
+          <EditText
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:id="@+id/editText3"
+              android:layout_below="@+id/dateEnd"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_alignRight="@+id/editText2"
+              android:layout_alignEnd="@+id/editText2"
+              android:textColorHint="#969FAA"
+              android:hint="(Date)"
+              android:layout_marginBottom="25dp"
+              />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:id="@+id/description_end"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:text="Description"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editDesc"
+        android:layout_below="@+id/description_end"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:textColorHint="#969FAA"
+        android:hint="(Description)"
+        android:layout_marginBottom="25dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText3"
+            android:id="@+id/selectText"
+            android:text="Select Group (Optional)"
+            android:layout_marginBottom="25dp"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectText">
+
+            <RadioButton
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 1"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 2" />
+            <RadioButton
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 3" />
+
+        </RadioGroup>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-122dp"
+        android:layout_marginRight="-122dp"
+        android:layout_marginBottom="375dp"
+        android:layout_toStartOf="@id/textView"
+        android:layout_toLeftOf="@id/textView"
+        android:background="#CCF7FF"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-145dp"
+        android:layout_marginLeft="-145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="375dp"
+        android:layout_toEndOf="@id/textView"
+        android:layout_toRightOf="@id/textView"
+        android:background="#CCF7FF"
+        android:text="Cancel" />
+
+</RelativeLayout>
