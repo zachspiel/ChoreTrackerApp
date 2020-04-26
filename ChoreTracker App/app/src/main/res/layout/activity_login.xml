@@ -4,32 +4,16 @@
     android:layout_height = "match_parent"
     tools:context = ".MainActivity">
 
-
-
     <TextView
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
-        android:text = "Chore Tracker App"
+        android:text = "Loading..."
         android:id = "@+id/textView"
         android:layout_centerHorizontal = "true"
         android:textColor = "#000"
         android:textSize = "35dp" />
 
-    <EditText
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:id = "@+id/editText"
-        android:hint = "Username or Email"
-        android:focusable = "true"
-        android:textColorHighlight = "#ff7eff15"
-        android:textColorHint = "#000"
-        android:layout_marginTop = "46dp"
-        android:layout_below = "@+id/imageView"
-        android:layout_alignParentLeft = "true"
-        android:layout_alignParentStart = "true"
-        android:layout_alignParentRight = "true"
-        android:layout_alignParentEnd = "true" />
-
+<!--
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="171dp"
@@ -39,16 +23,28 @@
         android:src="@drawable/logo" />
 
     <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:focusable="true"
+        android:hint="@string/username_or_email"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#000" />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
-        android:layout_alignParentLeft="true"
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:layout_alignEnd="@+id/username"
         android:textColorHint="#000"
         android:hint="Password"
         android:layout_marginBottom="25dp"
@@ -61,26 +57,33 @@
         android:background="#CCF7FF"
         android:layout_height="wrap_content"
         android:text="login"
-
         android:gravity="center"
         android:id="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editText2"
-        android:layout_marginBottom="25dp"></Button>
+        android:layout_below="@+id/password"
+        android:layout_marginBottom="25dp" />
 
     <Button
         android:layout_width="400dp"
         android:background="#CCF7FF"
         android:layout_height="wrap_content"
         android:text="Register"
-
         android:gravity="center"
         android:id="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button"
-
          />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/forgot_your_password_click_here_to_reset_it" />-->
 
 
 </RelativeLayout>

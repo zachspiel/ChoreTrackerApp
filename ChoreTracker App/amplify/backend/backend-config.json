@@ -1,0 +1,26 @@
+{
+	"api": {
+		"choretrackerapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authchoretrackerappa3539307"
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"choretrackerappa3539307": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

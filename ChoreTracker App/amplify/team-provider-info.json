@@ -1,0 +1,20 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-choretrackerapp-prod-231415-authRole",
+            "UnauthRoleArn": "arn:aws:iam::183838409144:role/amplify-choretrackerapp-prod-231415-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::183838409144:role/amplify-choretrackerapp-prod-231415-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-choretrackerapp-prod-231415-deployment",
+            "UnauthRoleName": "amplify-choretrackerapp-prod-231415-unauthRole",
+            "StackName": "amplify-choretrackerapp-prod-231415",
+            "StackId": "arn:aws:cloudformation:us-east-2:183838409144:stack/amplify-choretrackerapp-prod-231415/3027c830-74a9-11ea-aee0-0213e0bd929e",
+            "AmplifyAppId": "d39ovg8p0g5oou"
+        },
+        "categories": {
+            "auth": {
+                "choretrackerappa3539307": {}
+            }
+        }
+    }
+}
