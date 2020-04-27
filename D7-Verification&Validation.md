@@ -25,6 +25,10 @@ https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%
 
 2.2.1 Test Framework Used : JUnit4
 
+2.2.2 [Automated Integration Test Locations](https://github.com/zachspiel/ChoreTrackerApp/blob/master/ChoreTracker%20App/app/src/test/java/com/example/myapplication/)
+
+2.2.3 [Automated Integration Test File](https://github.com/zachspiel/ChoreTrackerApp/blob/master/ChoreTracker%20App/app/src/test/java/com/example/myapplication/DatabaseAccessTest.java)
+
 2.2.4 ![Integration test of database, and chores](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/integration_testing.png)
 
 <h4>2.3. Acceptance</h4>
