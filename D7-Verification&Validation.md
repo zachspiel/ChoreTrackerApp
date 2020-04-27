@@ -4,6 +4,8 @@
 
 <h3>1. Description</h3>
 
+The Chore Tracker App is designed to address a common issue plaguing households across the world: the division of labor. For households with a variety of chores between members, the Chore Tracker App is an organizational app that allows for the efficient distribution and tracking of household chores between household members. The design of the app is based around convenience.The Chore Tracker App is designed as an easy to use tracking tool that takes under 30 seconds to use. We want to create a usable, yet powerful organization tool that prioritizes users' valuable time above all else.
+
 <h3>2. Verification (tests)</h3>
 <h4>2.1. Unit Tests</h4>
 <h5>2.1.1. Test Framework: JUnit4</h5>
