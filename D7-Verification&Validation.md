@@ -111,7 +111,7 @@ Yes, but not very well. But it is in the very early stages so its not a big deal
 **Interview 2**
 Interviewee: Kevin Lopez
 
-General Questions
+**General Questions**
 
 **What are your first impressions of the app?** 
 UI is a bit basic
