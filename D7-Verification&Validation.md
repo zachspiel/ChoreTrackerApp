@@ -7,6 +7,7 @@
 The Chore Tracker App is designed to address a common issue plaguing households across the world: the division of labor. For households with a variety of chores between members, the Chore Tracker App is an organizational app that allows for the efficient distribution and tracking of household chores between household members. The design of the app is based around convenience.The Chore Tracker App is designed as an easy to use tracking tool that takes under 30 seconds to use. We want to create a usable, yet powerful organization tool that prioritizes users' valuable time above all else.
 
 <h3>2. Verification (tests)</h3>
+
 <h4>2.1. Unit Tests</h4>
 <h5>2.1.1. Test Framework: JUnit4</h5>
 <h5>2.1.2. GitHub Test Folder:</h5> https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%20App/app/src/test/java/com/example/myapplication
@@ -22,11 +23,13 @@ https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%
 
 <h4>2.2. Integration Tests</h4>
 
-![Integration test of database, and chores](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/integration_testing.png)
+2.2.1 Test Framework Used : JUnit4
+
+2.2.4 ![Integration test of database, and chores](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/integration_testing.png)
 
 <h4>2.3. Acceptance</h4>
-2.3.1
-Test Framework Used : Cucumber
+
+2.3.1 Test Framework Used : Cucumber
 
 2.3.2
 [Automated Acceptance Test Locations](https://github.com/zachspiel/ChoreTrackerApp/tree/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication)
