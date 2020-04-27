@@ -9,8 +9,10 @@ The Chore Tracker App is designed to address a common issue plaguing households 
 <h3>2. Verification (tests)</h3>
 
 <h4>2.1. Unit Tests</h4>
-<h5>2.1.1. Test Framework: JUnit4</h5>
-<h5>2.1.2. GitHub Test Folder:</h5> https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%20App/app/src/test/java/com/example/myapplication
+2.1.1. Test Framework: JUnit4
+
+2.1.2. [GitHub Test Folder](https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%20App/app/src/test/java/com/example/myapplication)
+
 <h5>2.1.3. Example: </h5>
 Github Link of Event Class:
 https://github.com/zachspiel/ChoreTrackerApp/blob/database_current/ChoreTracker%20App/app/src/main/java/com/example/myapplication/Event.java
