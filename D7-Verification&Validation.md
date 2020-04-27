@@ -27,10 +27,16 @@ https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%
 <h4>2.3. Acceptance</h4>
 2.3.1
 Test Framework Used : Cucumber
+
 2.3.2
 [Automated Acceptance Test Locations](https://github.com/zachspiel/ChoreTrackerApp/tree/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication)
+
 2.3.3
-Automated Acceptance Tests: [Features](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/assets/features/addEvents.feature) [Step Defintions](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/stepDefinitions/MyStepdefs.java), [CucumberTestCases](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/test/CucumberTestCase.java) and [Robot used](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/robot/LoginScreenRobot.java)
+Automated Acceptance Tests: 
+[features](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/assets/features/addEvents.feature) ,
+[step defintions](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/stepDefinitions/MyStepdefs.java), 
+[CucumberTestCase](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/test/CucumberTestCase.java) and 
+[robot used](https://github.com/zachspiel/ChoreTrackerApp/blob/Added-Acceptance-Testing/ChoreTracker%20App/app/src/androidTest/java/com/example/myapplication/robot/LoginScreenRobot.java)
   
 <h3>3. Validation (user evaluation)</h3>
 
