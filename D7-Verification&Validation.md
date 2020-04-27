@@ -13,6 +13,7 @@ The Chore Tracker App is designed to address a common issue plaguing households 
 <h5>2.1.3. Example: </h5>
 Github Link of Event Class:
 https://github.com/zachspiel/ChoreTrackerApp/blob/database_current/ChoreTracker%20App/app/src/main/java/com/example/myapplication/Event.java
+
 GitHub Link of TestEvent:
 https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%20App/app/src/test/java/com/example/myapplication/EventTest.java
 <h5>2.1.3. Example: </h5>
@@ -20,7 +21,9 @@ https://github.com/zachspiel/ChoreTrackerApp/tree/database_current/ChoreTracker%
 ![EventTest](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/EventTest_running.JPG)
 
 <h4>2.2. Integration Tests</h4>
-  
+
+![Integration test of database, and chores](https://github.com/zachspiel/ChoreTrackerApp/blob/master/Image%20Resources/integration_testing.png)
+
 <h4>2.3. Acceptance</h4>
   
 <h3>3. Validation (user evaluation)</h3>
