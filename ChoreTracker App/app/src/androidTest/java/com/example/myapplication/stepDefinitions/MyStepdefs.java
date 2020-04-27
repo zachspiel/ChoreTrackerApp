@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 public class MyStepdefs {
     private LoginScreenRobot robot = new LoginScreenRobot();
     @Given("^I am on the add Events Page")
-    public void iAmOnTheHomeScreen() {
+    public void launchEventScreen() {
         robot.launchScreen();
     }
         @Then("^I see EventName")
