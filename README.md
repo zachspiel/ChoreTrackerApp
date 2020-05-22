@@ -45,7 +45,7 @@ We use [GitKraken](https://www.gitkraken.com/) and [Andriod Studio](https://deve
 
 ## License
 
-This project is licensed under the GNU GPLv3 license - see the [LICENSE.md](https://github.com/zachspiel/ChoreTrackerApp/blob/master/LICENSE) file for details
+This project is licensed under the GNU GPLv3 license - see the [LICENSE.md](https://github.com/zachspiel/ChoreTrackerApp/blob/master/LICENSE) file for detailsa
 
 ## Acknowledgments
 
