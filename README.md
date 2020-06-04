@@ -7,7 +7,7 @@ Group repository for CS 386 at Northern Arizona University
 Using gitKraken or any git-hosting app clone the ChoreTrackerApp respitory. From there using Andriod Studios open the ChoreTrackerApp to see all the current files that are already programmed. 
 
 ### Prerequisites
-
+as
 GitKraken: 
 download from [here](https://www.gitkraken.com/) choose correct software type that your computer runs on. 
 
